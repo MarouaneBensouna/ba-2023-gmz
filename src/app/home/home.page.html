@@ -1,0 +1,49 @@
+<ion-menu side="start" content-id="main-content">
+  <ion-header>
+    <ion-toolbar color="success"> <!-- Utilisation de la couleur "success" pour le thème vert clair -->
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item>Accueil</ion-item>
+      <ion-item>Liste des espaces disponibles</ion-item>
+      <ion-item>Publier un espace</ion-item>
+      <ion-item routerLink="/register-good">Se connecter</ion-item>
+      <ion-item routerLink="/reset-password-good">Réinitialiser votre mot de passe </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+
+<ion-router-outlet id="main-content"></ion-router-outlet>
+
+<ion-toolbar color="success"> 
+  <ion-buttons slot="start">
+    <ion-menu-button></ion-menu-button>
+  </ion-buttons>
+  <ion-title class="ion-text-center">Stock & Share</ion-title>
+  <ion-buttons slot="end">
+    <ion-button routerLink="/mon-profil" >
+      <ion-icon name="person-circle-outline"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+</ion-toolbar>
+<ion-toolbar color="light">
+  <ion-searchbar placeholder="Rechercher un espace de stockage"></ion-searchbar>
+</ion-toolbar>
+
+<ion-content>
+  <ion-card>
+    <img alt="Logo de Stock & Share" src="assets/logoss.png" style="height: 50px; display: block; margin-left: auto; margin-right: auto;" />
+
+    <ion-card-header>
+      <ion-card-title class="ion-text-center ion-card-title-green">Bienvenue sur Stock & Share</ion-card-title>
+      <ion-card-subtitle class="ion-text-center ion-card-subtitle-green">Location d'espace de stockage entre particuliers</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Stock & Share est une plateforme qui permet aux particuliers de louer un espace de stockage inutilisé à d'autres personnes qui en ont besoin. Parcourez les listes disponibles ou publiez votre propre espace disponible dès aujourd'hui.
+    </ion-card-content>
+  </ion-card>
+</ion-content>

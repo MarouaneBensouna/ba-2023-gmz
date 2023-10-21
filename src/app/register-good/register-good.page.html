@@ -1,0 +1,52 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="success">
+    <ion-title class="animate__animated animate__fadeIn">Inscription</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <div class="header-container animate__animated animate__fadeIn">
+    <h2>Rejoignez Stock & Share</h2>
+    <p>Découvrez une nouvelle façon de partager et de rentabiliser votre espace.</p>
+  </div>
+
+  <ion-grid class="animate__animated animate__fadeIn">
+    <ion-row>
+      <ion-col size-md="6" offset-md="3">
+        <ion-item class="animate__animated animate__fadeIn">
+          <ion-label position="floating">Nom complet</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+
+        <ion-item class="animate__animated animate__fadeIn">
+          <ion-label position="floating">Email</ion-label>
+          <ion-input type="email"></ion-input>
+        </ion-item>
+
+        <ion-item class="animate__animated animate__fadeIn">
+          <ion-label position="floating">Mot de passe</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+
+        <ion-item class="animate__animated animate__fadeIn">
+          <ion-label position="floating">Confirmez le mot de passe</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+
+        <ion-button expand="full" color="success" class="ion-margin-top animate__animated animate__fadeIn">
+          <ion-icon name="checkmark-circle"></ion-icon> S'inscrire
+        </ion-button>
+
+        <ion-text class="ion-text-center ion-margin-vertical animate__animated animate__fadeIn">
+          <a class="action-link" routerLink="/home">Retour acceuil</a>
+        </ion-text>
+
+        <ion-text class="ion-text-center ion-margin-vertical animate__animated animate__fadeIn">
+          <a class="action-link" routerLink="/reset-password-good">
+            <ion-icon name="key"></ion-icon> Réinitialiser votre mot de passe
+          </a>
+        </ion-text>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+/* Nouveau CSS pour améliorer l'apparence */
+.ion-text-center {
+  color: #ffffff; /* Change la couleur du titre en blanc */
+}
+
+.ion-card-title {
+  font-size: 24px; /* Augmente la taille du titre de la carte */
+}
+
+.ion-card-subtitle {
+  font-size: 18px; /* Augmente la taille du sous-titre de la carte */
+}
+
+/* Changement de couleur */
+.ionic-color-primary {
+   --color-primary-rgb:34,34,34; /* Couleur principale en RGB */
+   --color-primary-contrast-rgb:255,255,255; /* Couleur contrastante en RGB */
+   --color-primary-shade-rgb:30,30,30; /* Couleur ombrée en RGB */
+   --color-primary-tint-rgb:38,38,38; /* Couleur teintée en RGB */
+}
+
+
+/* Nouveau CSS pour les titres et sous-titres de la carte */
+.ion-card-title-green {
+  font-size: 24px; /* Taille du titre de la carte */
+  color: #4CAF50; /* Couleur verte pour le titre de la carte */
+}
+
+.ion-card-subtitle-green {
+  font-size: 18px; /* Taille du sous-titre de la carte */
+  color: #4CAF50; /* Couleur verte pour le sous-titre de la carte */
+}

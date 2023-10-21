@@ -1,0 +1,37 @@
+/* Styles personnalisés avec des couleurs plus variées */
+.profile-card {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff; /* Vert pâle */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .animated-title {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: #007f00; /* Vert foncé */
+  }
+  
+  ion-icon {
+    margin-right: 8px;
+    font-size: 24px;
+    color: #00a400; /* Vert vif */
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+  }
+  
+  .animated.fadeIn {
+      animation-name: fadeIn;
+      animation-duration: 1s;
+  }
+  

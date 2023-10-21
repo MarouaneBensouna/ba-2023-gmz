@@ -1,0 +1,7 @@
+{
+  "name": "BA 2023 GMZ",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

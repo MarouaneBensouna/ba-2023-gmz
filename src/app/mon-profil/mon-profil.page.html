@@ -1,0 +1,101 @@
+<ion-header [translucent]="true">
+  <ion-toolbar style="background-color: rgb(215, 242, 215);">
+    <ion-buttons slot="start">
+      <ion-button routerLink="/home"> <!-- Remplacez "/accueil" par le chemin de votre page d'accueil -->
+        <ion-icon name="home"></ion-icon> <!-- Vous pouvez utiliser l'icône "home" ou tout autre icône de votre choix -->
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Stock & Share</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" style="background-color: lightgreen;">
+  <ion-header collapse="condense">
+    <ion-toolbar style="background-color: lightgreen;">
+      <ion-title size="large">Mon Profil</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- Contenu du profil avec des icônes et des animations -->
+
+
+  
+  <ion-card class="profile-card">
+    <ion-card-header>
+      <ion-card-title class="animated-title">
+        <ion-icon name="body-outline"></ion-icon> Nom d'utilisateur
+      </ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card class="profile-card">
+    <ion-card-header>
+      <ion-card-title class="animated-title">
+        <ion-icon name="heart-outline"></ion-icon> Mes favoris
+      </ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card class="profile-card">
+    <ion-card-header>
+      <ion-card-title class="animated-title">
+        <ion-icon name="brush-outline"></ion-icon> Personnalisation
+      </ion-card-title>
+    </ion-card-header>
+  </ion-card>
+
+  <ion-card class="profile-card">
+    <ion-card-header>
+      <ion-card-title class="animated-title">
+        <ion-icon name="cash-outline"></ion-icon> Mes locations
+      </ion-card-title>
+    </ion-card-header>
+    <ion-icon name="pin" slot="end"></ion-icon>
+  </ion-card>
+
+  <ion-card class="profile-card">
+    <ion-card-header>
+      <ion-card-title class="animated-title">
+        <ion-icon name="calendar-outline"></ion-icon> Agenda de réservation
+      </ion-card-title>
+    </ion-card-header>
+    <ion-icon name="calendar" slot="end"></ion-icon>
+  </ion-card>
+
+  <ion-card class="profile-card">
+    <ion-card-header>
+      <ion-card-title class="animated-title">
+        <ion-icon name="settings-outline"></ion-icon> Paramètres
+      </ion-card-title>
+    </ion-card-header>
+    <ion-icon name="settings" slot="end"></ion-icon>
+  </ion-card>
+
+  <ion-card class="profile-card">
+    <ion-card-header>
+      <ion-card-title class="animated-title">
+        <ion-icon name="information-circle-outline"></ion-icon> Informations légales
+      </ion-card-title>
+    </ion-card-header>
+    <ion-icon name="document-text" slot="end"></ion-icon>
+  </ion-card>
+
+  <ion-card class="profile-card">
+    <ion-card-header>
+      <ion-card-title class="animated-title">
+        <ion-icon name="home-outline"></ion-icon> À propos de nous
+      </ion-card-title>
+    </ion-card-header>
+    <ion-icon name="information-circle" slot="end"></ion-icon>
+  </ion-card>
+
+  <ion-card class="profile-card">
+    <ion-card-header>
+      <ion-card-title class="animated-title">
+        <ion-icon name="help-outline"></ion-icon> Centre d'aide
+      </ion-card-title>
+    </ion-card-header>
+    <ion-icon name="help" slot="end"></ion-icon>
+  </ion-card>
+
+  
